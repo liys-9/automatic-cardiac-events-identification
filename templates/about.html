@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- 引入 ECharts 文件 -->
+    <script src="static/assets/js/echarts.min.js"></script>
+  <title>功能待开发</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="/index"><span>echoo</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="/index">首页 <i class="la la-angle-down"></i></a></li>
+<!--          <li><a href="/line" target="_blank">时间分析 </a></li>-->
+<!--          <li><a href="/idea" target="_blank">意见反馈</a></li>-->
+<!--          <li><a href="/about" target="_blank">关于</a></li>-->
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+   <!-- ======= Our Team Section ======= -->
+<!--    <section id="team" class="team">-->
+      <div class="container">
+          <h3>功能简介</h3>
+        <p>基于超声心动图提供心尖两腔和心尖四腔视角的心脏自动评价方法，包括视角分类（暂支持A2C、A4C）、心脏结构临床参数、射血分数、心跳周期确定、心脏时相分析等。
+        </p>
+          <h3>使用方法</h3>
+        <p>选择单个超声心动图文件（A2C、A4C）-->基于单个视角计算临床射血分数；同时选择两个视角的文件（顺序任意）-->simpson方法射血分数。
+        </p>
+        <div>
+        <a href="https://www.bilibili.com/video/bv11F411q7H7">使用示例：https://www.bilibili.com/video/bv11F411q7H7</a>
+        </div>
+        <div>
+          <a href="https://github.com/hkx97/echo">github:https://github.com/hkx97/echo</a>
+        </div>
+      </div>
+
+<!--        <div class="section-title">-->
+<!--          <h2>豆瓣电影Top250评分分布图</h2>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; ======= Counts Section ======= &ndash;&gt;-->
+<!--    <section class="counts section-bg">-->
+<!--      <div class="container">-->
+
+<!--            &lt;!&ndash; 为ECharts准备一个具备大小（宽高）的Dom &ndash;&gt;-->
+<!--        <div id="main" style="width:100%;height:300px;"></div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Counts Section &ndash;&gt;-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Our Team Section &ndash;&gt;-->
+
+<!--      <script type="text/javascript">-->
+<!--        var dom = document.getElementById("main");-->
+<!--        var myChart = echarts.init(dom);-->
+<!--        var app = {};-->
+<!--        option = null;-->
+<!--        option = {-->
+<!--            color:['#3398DB'],-->
+<!--            tooltip: {-->
+<!--            trigger: 'axis',-->
+<!--            axisPointer: {-->
+<!--                type: 'shadow'-->
+<!--                }-->
+<!--            },-->
+<!--            grid: {-->
+<!--                left: '3%',-->
+<!--                right:'4%',-->
+<!--                bottom:'3%',-->
+<!--                containLabel:true-->
+<!--            },-->
+<!--            xAxis: {-->
+<!--                name: '评分',-->
+<!--                type: 'category',-->
+<!--                data: {{ scores }}-->
+<!--            },-->
+<!--            yAxis: {-->
+<!--                name: '数量',-->
+<!--                type: 'value'-->
+<!--            },-->
+<!--            series: [{-->
+<!--                data: {{ num }},-->
+<!--                barWidth:'60%',-->
+<!--                type:'bar'-->
+<!--            }]-->
+<!--        };-->
+<!--        if (option && typeof option === "object") {-->
+<!--        myChart.setOption(option, true);-->
+<!--        }-->
+<!--      </script>-->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Echoo</span></strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <script src="static/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="static/assets/vendor/counterup/counterup.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
